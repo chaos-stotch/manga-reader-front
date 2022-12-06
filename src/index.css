@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --color-bg: #2A2D34;
+    --color-bg-variant: #181a207c;
+    --color-primary: #18153f;
+    --color-primary-variant: #0c092b;
+    --color-light: #e4e4e4;
+    --color-white: #FFFAFF;
+    --color-blue: #011125;
+
+    --transition: all 400ms ease;
+
+    --container-width-lg: 75%;
+    --container-width-md: 86%;
+    --container-width-sm: 90%;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-white);
+}

@@ -1,0 +1,41 @@
+header {
+    background: linear-gradient(to top, var(--color-primary), var(--color-primary-variant));
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    height: 2.5rem;
+    margin: .5rem 0 .5rem 20rem;
+}
+
+.profile__icon {
+    position: absolute;
+    right: 0px;
+    width: 2rem;
+    height: 2rem;
+    margin: 1.1rem 10rem 4rem 0;
+    cursor: pointer;
+}
+
+/*--------------------------- (MEDIUM DEVICES) ---------------------------*/
+@media screen and (max-width: 1024px) {
+    .logo {
+        margin-left: 10rem;
+    }
+    .profile__icon {
+        margin-right: 5rem;
+    }
+}
+
+/*--------------------------- (SMALL DEVICES) ---------------------------*/
+@media screen and (max-width: 600px) {
+    .logo {
+        margin-left: 2rem;
+    }
+    .profile__icon {
+        margin-right: 1rem;
+    }
+}
