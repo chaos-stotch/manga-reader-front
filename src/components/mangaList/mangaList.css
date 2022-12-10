@@ -34,7 +34,7 @@
     position: relative;
     left: 16rem;
     width: 40rem;
-    margin-top: -20rem;
+    margin-top: -28rem;
 }
 
 /*--------------------------- (MEDIUM DEVICES) ---------------------------*/
@@ -61,7 +61,7 @@
         position:relative;
         left: 2.5%;
         width: 95%;
-        margin-top: 0;
+        margin-top: -26rem;
     }
 }
 

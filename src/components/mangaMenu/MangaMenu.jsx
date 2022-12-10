@@ -8,8 +8,12 @@ const IMG1 = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.pini
 function MangaMenu() {
   return (
     <div>
+      
       <div className='manga__menu'>
-          <img src={IMG1} className="mangaImage"/>
+          <div>
+            <div className="menu__back_image"/>
+            <img src={IMG1} className="mangaImage"/>
+          </div>
           <div className="mangaDetails">
               <h3 className='menu__manga__title'>Manga Name</h3>
               <button className='read__now-btn btn'>Read Now</button>
