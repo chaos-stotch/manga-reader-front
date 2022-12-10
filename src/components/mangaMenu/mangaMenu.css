@@ -1,0 +1,110 @@
+.manga__menu {
+    margin-top: 3.7rem;
+    position: absolute;
+    background-color: var(--color-bg-variant);
+    width: 80%;
+    height: 40rem;
+    top: 50%;
+    left: 50%;
+    margin-left: -40%;
+    margin-top: -300px;
+    border-radius: 15px;
+    display: grid;
+    grid-template-columns: 0fr 1fr;
+}
+
+.mangaImage {
+    margin: 20px;
+    height: 560px;
+    width: 340px;
+    border: 4px solid var(--color-primary);
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+.menu__manga__title {
+    margin: 1rem;
+    font-size: 24px;
+}
+
+.btn {
+    width: max-content;
+    display: inline-block;
+    color: white;
+    background-color: var(--color-primary);
+    padding: 0.75rem 1.2rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: 2px solid var(--color-white);
+    font-weight: 600;
+    position: absolute;
+    font-size: 20px;
+}
+
+.btn.read__now-btn:hover {
+    background: var(--color-primary-variant);
+    color: var(--color-white);
+}
+
+.btn.read__list:hover {
+    background: #fff;
+    color: var(--color-primary);
+}
+
+.btn.read__now-btn {
+    right: 6rem;
+}
+
+.btn.read__list {
+    background-color: transparent;
+    right: 1rem;
+}
+
+p {
+    position: absolute;
+    width: 50%;
+    top: 8rem;
+}
+
+.manga__list {
+    width: 100%;
+    position: absolute;
+    top: 55rem;
+    padding-bottom: 4rem;
+}
+
+.chapter {
+    display: flex;
+    height: 3rem;
+    width: 80%;
+    margin-left: 10%;
+    background: black;
+    border: 1px solid var(--color-primary);
+    cursor: pointer;
+}
+
+.chapter__name {
+    font-weight: 200;
+    font-size: 14px;
+    padding: 14px;
+}
+
+.icon-box {
+    height: 2rem;
+    width: 4rem;
+    margin-right: .5rem;
+    margin-top: .45rem;
+    position: absolute;
+    right: 10%;
+    background: var(--color-bg-variant);
+    border-radius: 5px;
+}
+
+.readed-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+}
+

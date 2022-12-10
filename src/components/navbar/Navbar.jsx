@@ -10,7 +10,6 @@ function Navbar() {
       <a href='/'>
         <img src={logo} alt="logo" className='logo'/>
       </a>
-
       <RiAccountCircleFill className='profile__icon'/>
     </header>
   )
