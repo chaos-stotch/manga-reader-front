@@ -28,3 +28,7 @@ body {
     background-color: var(--color-bg);
     color: var(--color-white);
 }
+
+.link {
+    color: white;
+}

@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 
+import { Link } from "react-router-dom";
+
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation, Pagination } from "swiper";
 
@@ -35,9 +37,11 @@ function Hilights() {
               posts.map(({mangaName, imageSrc}) =>{
               return(
                 <SwiperSlide>
+                  <Link to="/mangas" className='link'>
                     <div className="back__image"/>
                     <img className='hilight__img' src={imageSrc} alt={mangaName} />
                     <h3 className='manga__title'>{mangaName}</h3>
+                  </Link>
                 </SwiperSlide>
                 )
             })
